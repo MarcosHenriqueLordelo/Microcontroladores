@@ -11,7 +11,7 @@ init:
 
 main:
 	SBIS PIND, BOTAO; se botao apertado realiza ciclo reverso
-	RCALL reverso
+	RCALL reverse
 	RCALL flash
 	RJMP main
 
